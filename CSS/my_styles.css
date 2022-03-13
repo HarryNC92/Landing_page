@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+body {   
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    text-align: left;
+}
+
+.wrp {
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.case-study-type {
+    text-transform: uppercase;
+    font-weight: 100;
+    border-top: 1px black;
+}
+
+.hbx {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.herosub, .herotxt {
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+
+.project-box1 {
+    color: 333;
+}
+
+.listhead {
+    list-style-type: none;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.hskll {
+    color: white;
+    text-align: center;
+}

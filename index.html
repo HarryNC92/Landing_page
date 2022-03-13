@@ -4,24 +4,60 @@
     <head>
       <meta charset="UTF-8">
       <title>Landing Page</title>
+      <link rel="stylesheet" href="CSS/my_styles.css">
+      <link rel="stylesheet" href="CSS/Layout.css">
+      <link rel="annimation" href="css/annimation.css">
    </head>
 
 <body>
+    <!-- make the navbar with logo center and fixed, logo apears after leaving hero section-->
     <nav>
-        <img width="90" src="media/Initials signature HNC.svg" alt="Harry James Design Initials signature - UX and Product Design Studio, United Kingdom">
-        <a href="#about-me">About</a>
-        <a href="#case-study">Work</a>
-        <a href="#skills">Skills</a>
-        <a href="https://twitter.com/RiseofEnki" target="blank" style="opacity: 1;">
-            <img width="34" loading="lazy" src="Media/Twitter - Negative.svg" alt="Twitter link"></a>
-        <a href="http://www.linkedin.com/in/harry-nc" target="blank" style="opacity: 1;"> 
-            <img width="34" loading="lazy" src="media/LinkedIn - Negative.svg" alt="Linked in page"></a>
+        <div id="navblock">
+            <div id="nlwrap">
+                <img src="media/Initials signature HJ.svg" width="70" alt="Harry James Design Initials signature - UX and Product Design Studio, United Kingdom">
+            </div>
+            <div id="niwrap">
+                    <a href="#about-me" class="wrp">About</a>
+                    <a href="#case-study" class="wrp">Work</a>
+                    <a href="#skills" class="wrp">Skills</a>
+                    <a href="https://twitter.com/RiseofEnki" target="_blank" class="wrp wrt">
+                        <img width="24" loading="lazy" src="Media/Twitter - Negative.svg" alt="Twitter link"></a>
+                    <a href="http://www.linkedin.com/in/harry-nc" target="_blank" class="wrp wrt"> 
+                        <img width="24" loading="lazy" src="media/LinkedIn - Negative.svg" alt="Linked in page"></a>
+        </div>
     </nav>
-    <main  id="aboout-me">    
-        <section>
-            <header>
+
+    <header>
+        <div class="container1">
+            <div class="hbx">
+                <h2 class="herotxt"><strong>Harry James</strong></h2>
+                <div class="bb"></div>
+                <h2 class="herosub">Product Design</h2>
+            </div>
+            <div class="blur"></div>
+        </div>
+    </header>
+
+    <section id="case-study" class="project-section1">
+
+            <div class="container2">
+                <div class="project-box1">
+                    <h2 class="heading">No-Code Web 3.0 App Builder</h1>
+                    <p class="psubhead">The application builder is a no-code solution that allows people to click together applications from pre-made components sold on an open marketplace.</p>
+                    <h3 class="case-study-type">UX Case Study</h3>
+                </div>
+            <div class="bscrl">
+                <img class="project-img" src="/Landing_page/Media/Semantu app builder prototype.png" alt="Web 3.0 App Builder - UX case study UI. Harry James Design, United Kingdom">
+            </div>
+        </div>
+    </section>
+
+        <section id="about-me">
+
+            <header class="hskll herosub">
                 <h2>About me</h2>
             </header>
+            <div class="abt">
                 <p>
                     I’m a UX Designer skilled in Product Design idea to conception with over 6 years of experience, and the last 2 years focused on technology products, User Interface and Experience.
                 <br>
@@ -34,29 +70,14 @@
                 <br>    
                     I’m passionate about applying consumer psychology to an interaction science-backed approach. My background in engineering allows me to plan for worst-case scenarios and focus on details when solving problems.
                 </p>
+            </div>    
         </section>
-    </main>    
-        <section id="case-study">
-            <header>
-                <h2>Selected projects</h2>
-            </header>
-            <article>
-                <header>
-                    <h3>No-Code Web 3.0 App Builder</h3>
-                </header>
-                <p>
-                    The application builder is a no-code solution that allows people to click together applications from pre-made components sold on an open marketplace.
-                </p>
-                <figure>
-                    <img src="media/Space Gray.png" alt="Web 3.0 App Builder - UX case study UI. Harry James Design, United Kingdom">
-                </figure>
-            </article>
-        </section>
+
         <section id="skills">
-            <header>
+            <header class="hskll herosub">
                 <h2>Skills</h2>
             </header>
-            <article>
+            <article class="sl">
                 <ul>
                     <li class="listhead">UX Research</li>
                     <li class="list-item-1">Problem Statement</li>
