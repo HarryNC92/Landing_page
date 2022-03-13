@@ -12,12 +12,14 @@ body {
 nav {
     position: absolute;
     width: 100%;
+    height: 90px;
     margin-top: 0%;
     margin-left: 0%;
 }
 #navblock {
     align-items: center;
     z-index: 0;
+    height: inherit;
     display: flex;
     flex-direction: row;
     margin-left: auto;
@@ -45,7 +47,7 @@ nav {
     height: 95vh;
     position: static;
     justify-content: center;
-    background-image: url(/Landing_page/Media/KC\ 1.jpg);
+    background-image: url(/Media/KC\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
@@ -55,7 +57,7 @@ nav {
     margin-right: auto;
 }
 .bb {
-    background-image: url(/Landing_page/Media/Initials\ signature\ HJ.svg);
+    background-image: url(/Media/Initials\ signature\ HJ.svg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,7 +126,7 @@ nav {
     right: 10px;
     width: 900px;
     height: 600px;
-    background-image: url(/Landing_page/Media/Bluebck.jpg);
+    background-image: url(/Media/Bluebck.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
